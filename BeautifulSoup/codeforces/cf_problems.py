@@ -21,3 +21,5 @@ try:
 
 except:
     print("Contest Number May Not Be Right")
+    
+input() #to pause the console
