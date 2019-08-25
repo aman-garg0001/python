@@ -18,3 +18,5 @@ try:
     print(rat[0].text,rat[1].text)
 except:
     print("Error : pls check internet or User-handle")
+    
+input() #to pause console
