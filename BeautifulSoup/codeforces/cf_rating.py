@@ -10,9 +10,7 @@ try:
     path = soup.find("div",{"class":"user-rank"})
     rat = soup.select("div.info li span")
     
-    print(path.text)
-    print(rat[0].text,rat[1].text)
+    print(path.text.strip()," >> ",rat[0].text.strip(),rat[1].text.strip())
 except:
     print("Error : pls check internet or User-handle")
     
-input() #to pause console
