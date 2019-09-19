@@ -1,23 +1,22 @@
 import requests
 from bs4 import BeautifulSoup
-
-cn = input("enter Contest Number  ")
-
-url = "https://codeforces.com/contest/"+cn
-purl="/contest/"+cn+"/problem"
-
+url = "https://codeforces.com/profile/"
+handle = input("Enetr your handle:  ")
+url += handle
 try:
-    page= requests.get(url);
+    page = requests.get(url)
+    
     soup = BeautifulSoup(page.text,'html5lib')
-    prob = soup.select('a[href*="'+purl+'"]')
-    ctst= soup.select('a[href="/contest/'+cn+'"]')
-    print("\n"+ctst[0].text)
-    for i in range(0,len(prob)-1,2):
-        nam = prob[i+1].text.split(" ")
-        while "" in nam:
-            nam.remove("")
-        print("%1s %40s %30s"%(prob[i].text," ".join(nam),"\t>>>\thttp://codeforces.com"+prob[i]['href']))
-
+    path = soup.find("div",{"class":"user-rank"})
+    # info = soup.find("div",{"class":"info"})
+    # ul = info.find("ul")
+    # li = ul.find("li")
+    # rat = li.find("span")
+    rat = soup.select("div.info li span")
+    
+    print(path.text)
+    print(rat[0].text,rat[1].text)
 except:
-    print("Contest Number May Not Be Right")
-
+    print("Error : pls check internet or User-handle")
+    
+input() #to pause console
