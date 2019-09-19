@@ -9,7 +9,6 @@ purl="/contest/"+cn+"/problem"
 try:
     page= requests.get(url);
     soup = BeautifulSoup(page.text,'html5lib')
-    
     prob = soup.select('a[href*="'+purl+'"]')
     ctst= soup.select('a[href="/contest/'+cn+'"]')
     print("\n"+ctst[0].text)
@@ -21,3 +20,4 @@ try:
 
 except:
     print("Contest Number May Not Be Right")
+
