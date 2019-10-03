@@ -1,0 +1,36 @@
+Aman Garg
+Una, Himachal Pradesh
+aman@gamail.com
+Summary
+Skilled Java developer and team leader with diverse experience utilizing Java tools for client-server environments and fluid understanding of many programming languages including C, C++, JavaScript, XML, and HTML. Worked with a large team of GUI and Java developers to maintain and improve company projects. Assisted with disaster recovery environments for critical business applications. Received the Eclipse Award for Best Java Application ‘15.
+
+Education
+Westwood University, Masters in Computer Science Graduated -  May 2009
+Clearwater University, Bachelor’s of Science in Computer Science Graduated -  May 2007
+Employment History
+Northern, Inc.
+Core Java Developer   January 2015 - Present
+Analysis of user requirements, create and modify block diagrams and logic flowcharts
+Oversee architectural development and software activities
+Assisted with detailed technical designs to develop project-specific programs
+Strong debugging skills, creative preparation of user-level documentation
+Expertise in Core Java Technologies, SDLC (Software Development Life Cycle), and design and development of web-based application
+Detailed hands on experience with scripting languages such as Linux and Unix
+Integrated and modified software systems according to the end user specifications
+Western LTD
+Java Developer   June 2009 - January 2015
+Development of applications and software to increase department efficiency
+Efficiently worked within team from scratching to development of company specific software
+Diagnose and correct errors within code to allow for utilization of applications and allow for connections
+Provide a high level of customer support to remote clients using a support e-ticketing system
+Experience with streamlining SQL query generation and data modeling
+Hobbies & Interests
+Volunteer at local sporting arena
+Teach windows and MS word for adult community classes
+Participate in Big Brother program at local YMCA
+Member of bowling league
+Volunteer to work local Comic-Con event
+Professional Skills
+HTML, CSS, Javascript and JQuery, JSP/Servlets and Struts/Spring	Expert
+Effective multi-tasker with outstanding organizational and customer service skills	Expert
+Excellent team building skills, meeting preparation and organization	Expert
